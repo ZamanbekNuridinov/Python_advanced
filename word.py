@@ -24,7 +24,6 @@ while not game_over:
                 if board[i]=='*':
                     board[i] = user_guess
                     point = point + randint(1,10)
-                    break
                 else: 
                     print("Word already guessed!")
                     break
