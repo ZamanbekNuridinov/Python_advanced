@@ -14,6 +14,6 @@ if(a1==b1):
 if(c==k*c1+b):
     print("point in the line")
 if(c > k*c1+b):
-    print("up")
+    print("up)")
 else:
     print("down")
