@@ -47,11 +47,6 @@ def drawSin():
     for x in range(75,size[0]-75):
         y=int(138*math.sin((x+500-step)/400*2*math.pi))+183
         pygame.draw.line(screen, green, [x,y],[x,y], 2)
-#     for x in range(20, size[0]-20):
-#         y = int((size[1]/2) + a*math.sin(f*((float(x)/size[0])*(2*math.pi) + (s*time.time()))))
-#         #surface.set_at((x, y), color_of_graph)
-#         pygame.draw.line(surface, color_of_graph, [x, y], [x, y], 3)
-#         pygame.draw.line(surface, color_of_Axes, [x, int(size[1]/2)], [x, int(size[1]/2)], 1)
 
 done = False
 step=0
